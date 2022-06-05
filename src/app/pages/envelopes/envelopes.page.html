@@ -1,0 +1,33 @@
+
+<ion-content>
+  <div class="text">
+    <ion-item lines="none">
+      <!-- Number type input -->
+      <ion-input type="number" placeholder="Input monthly income"></ion-input>
+
+    </ion-item>
+  </div>
+  <ion-item lines="none">
+    <ion-label position="floating">Envelope Title</ion-label>
+    <ion-select interface="popover">
+      <ion-select-option value="groceries">Groceries</ion-select-option>
+      <ion-select-option value="electric">Electric Bill</ion-select-option>
+      <ion-select-option value="h2">Water Bill</ion-select-option>
+      <ion-select-option value="net">Internet Bill</ion-select-option>
+      <ion-select-option value="gas">Gas</ion-select-option>
+      <ion-select-option value="cloth">Clothes</ion-select-option>
+      <ion-select-option value="other">Others</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+
+  <div class="amount">
+    <ion-item lines="none">
+      <ion-input type="number" placeholder="Enter Amount"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="add">
+    <ion-button><ion-icon name="add-sharp"></ion-icon>Add Envelope</ion-button>
+  </div>
+</ion-content>

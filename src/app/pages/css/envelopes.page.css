@@ -1,0 +1,61 @@
+ion-content .text ion-item {
+  margin-top: 80px;
+  width: 80%;
+}
+
+ion-content .text ion-item ion-input {
+  color: #000;
+}
+
+ion-content ion-item {
+  --background: transparent;
+  margin: 15px auto;
+  border: 1px solid #3067c5;
+  border-radius: 5px;
+  height: 60px;
+  position: relative;
+  z-index: 0;
+  overflow: visible;
+  width: 60%;
+}
+
+ion-content ion-item ion-label {
+  z-index: 100000000;
+  margin-top: -10px;
+  left: -15px;
+  color: #3067c5;
+  position: absolute;
+  background-color: #fff;
+}
+
+ion-content ion-item ion-select {
+  color: #000;
+}
+
+ion-content ion-item ion-select ion-select-option {
+  color: red;
+}
+
+ion-content .amount ion-item {
+  --background: rgb(59, 60, 60);
+  border: none;
+  width: 70%;
+  --border-radius: 5px;
+}
+
+ion-content .add {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+ion-content .add ion-button {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  --background: transparent;
+  color: #3883f5;
+  font-weight: 700;
+}
+/*# sourceMappingURL=envelopes.page.css.map */

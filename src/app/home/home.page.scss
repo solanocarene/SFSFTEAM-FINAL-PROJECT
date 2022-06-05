@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Permanent+Marker&family=Poppins:wght@500&display=swap');
+ion-content{
+    --ion-background-color: #fff;
+
+    ion-card{
+        margin-top: 100px;
+        --background: #fff;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+        ion-card-header{
+            ion-card-title{
+                color: #000;
+                font-size: 25px;
+                text-align: center;
+                font-family: 'Montserrat Alternates', sans-serif;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+        ion-card-content{
+            p{
+                color: rgba(0, 0, 0, 0.8);
+                text-align: justify;
+                font-size: 16px;
+                font-family: 'Montserrat Alternates', sans-serif;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
+    }
+    
+    ion-item-divider{
+        position: absolute;
+        --background: rgb(0, 137, 222);
+        border: none;
+        height: 70px;
+       margin: 0;
+       padding: 0;
+
+       .hand{
+        ion-icon{
+            margin-left: 10px;
+            font-size: 35px;
+            color: #fff;
+        }
+    }
+       .info{
+        ion-buttons{
+            img{
+                height: 35px;
+                width: 35px;
+
+            }
+        }
+    }
+    .title{
+        position: absolute;
+        left: 50px;
+        ion-label{
+            font-family: 'Permanent Marker', cursive;
+            font-size: 30px;
+            color: #fff;
+        }
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 40px;
+        img{
+            height: 35px;
+        }
+    }
+    a{
+        margin-right: 5px;
+        ion-icon{
+            color: red;
+             font-size: 30px;
+        }
+    }
+    }
+}
+ion-tabs{
+  background-color: #fff;
+  --box-shadow: none;
+  z-index: -10000;
+  border: 0;
+
+    margin-top: -1px;
+  ion-tab-button{
+    background-color: #fff;
+
+  }
+}

@@ -1,0 +1,53 @@
+ion-toolbar {
+  --background: rgb(46, 128, 211);
+  height: 90px;
+}
+
+ion-content {
+  --ion-background-color: #fff;
+}
+
+ion-content form {
+  width: 85%;
+  margin: 0 auto;
+}
+
+ion-content form ion-item {
+  --background: transparent;
+  margin-top: 15px;
+  border: 1px solid #3067c5;
+  border-radius: 5px;
+}
+
+ion-content form ion-item ion-label {
+  color: #000;
+}
+
+ion-content form ion-item ion-input {
+  color: #000;
+  margin-left: 5px;
+}
+
+ion-content form ion-item ion-icon {
+  position: absolute;
+  color: #000;
+  right: 5px;
+  top: 15px;
+}
+
+ion-content form ion-row ion-col ion-button {
+  --background: #0869AE;
+  --border-radius: 5px;
+  height: 45px;
+  margin-top: 30px;
+}
+
+ion-content form ion-row ion-col a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: #dedede;
+}
+/*# sourceMappingURL=login.page.css.map */

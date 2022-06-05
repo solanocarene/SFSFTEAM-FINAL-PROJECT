@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+    <div class="icon"> 
+      <img src="./assets/images/profile1.png">
+    </div>
+
+  </div>
+  <form>
+    <ion-item lines="none">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input [type]="showpassword ? 'text' : 'password'"  required></ion-input>
+      <ion-icon slot="end" [name]="passwordToggleIcon" (click)="togglepassword()"></ion-icon>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" expand="block" (click)="signin()">Sign In</ion-button>
+        <a [routerLink]="['/forgot-password']" class="small-text" (click)="resetpassword()">Forgot Password?</a>
+        <ion-button class="signup" type="submit" expand="block" (click)="signup()" style="border-radius: 5px;">Sign Up</ion-button>
+
+      </ion-col>
+    </ion-row>
+  </form>
+
+</ion-content>

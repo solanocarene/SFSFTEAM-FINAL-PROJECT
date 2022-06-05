@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Permanent+Marker&family=Poppins:wght@500&display=swap');
+ion-content{
+    position: absolute;
+    z-index: 100000000000000;
+    --ion-background-color: #fff;
+    .accounts{    
+        padding-top: 70px;
+        ion-card{
+            padding: 5px;
+            --background: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                height: 80px;
+                width: 80px;
+                object-fit: cover;
+                border-radius: 50%;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            }
+            ion-card-header{
+                width: 100%;
+                height: 100%;
+                display: flex;  
+                flex-direction: column;
+                justify-content: center;
+                font-family: 'Montserrat Alternates', sans-serif;
+                font-family: 'Poppins', sans-serif;
+
+                ion-card-title{
+                    width: 100%;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    color: rgb(21, 101, 162);
+                    margin-bottom: 3px;
+                }
+                ion-label, span{
+                    color: rgb(64, 140, 211);
+                    text-align: left;
+                    font-size: 12px;
+                }
+                ion-icon{
+                    color: rgb(64, 140, 211);
+                    position: absolute;
+                    font-size: 20px;
+                    right: 0;
+                    top: 55px;
+                }
+            }
+        }
+    }
+}

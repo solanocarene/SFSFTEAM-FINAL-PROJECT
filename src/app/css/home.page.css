@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Permanent+Marker&family=Poppins:wght@500&display=swap");
+ion-content {
+  --ion-background-color: #fff;
+}
+
+ion-content ion-card {
+  margin-top: 100px;
+  --background: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+ion-content ion-card .img {
+  width: 100%;
+  height: 120px;
+  background-color: #b8b8b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-content ion-card .img img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+}
+
+ion-content ion-card ion-card-header ion-card-title {
+  color: #000;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+ion-content ion-card ion-card-content p {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+ion-content ion-item-divider {
+  position: absolute;
+  --background: rgb(0, 137, 222);
+  border: none;
+  height: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+ion-content ion-item-divider .hand ion-buttons ion-icon {
+  color: #fff;
+  font-size: 30px;
+}
+
+ion-content ion-item-divider .title {
+  position: absolute;
+  left: 50px;
+}
+
+ion-content ion-item-divider .title ion-label {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+  color: #fff;
+}
+
+ion-content ion-item-divider .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 50px;
+}
+
+ion-content ion-item-divider .icon img {
+  height: 35px;
+}
+
+ion-content ion-item-divider a {
+  margin-right: 5px;
+}
+
+ion-content ion-item-divider a ion-icon {
+  color: red;
+  font-size: 30px;
+}
+
+ion-tabs {
+  background-color: #fff;
+  --box-shadow: none;
+  z-index: -10000;
+  border: 0;
+  margin-top: -1px;
+}
+
+ion-tabs ion-tab-button {
+  background-color: #fff;
+}
+/*# sourceMappingURL=home.page.css.map */

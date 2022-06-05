@@ -1,0 +1,128 @@
+.calculator {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+.calculator .calculator-controls {
+  display: flex;
+  flex-direction: row;
+}
+
+.calculator .calculator-last-calculation {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  opacity: .5;
+}
+
+.calculator > .calculator-display {
+  min-height: 15%;
+}
+
+.calculator .calculator-display {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  color: #000;
+}
+
+.calculator .calculator-display p {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.calculator .calculator-display .calculator-input {
+  flex: 1 1 75%;
+}
+
+.calculator .calculator-display .calculator-input p {
+  text-align: center;
+}
+
+.calculator .calculator-display .calculator-result {
+  flex: 1 1 25%;
+  cursor: pointer;
+}
+
+.calculator .calculator-keyboard {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.calculator .calculator-keyboard .calculator-keyboard-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  flex: 75%;
+}
+
+.calculator .calculator-keyboard .calculator-keyboard-left .calculator-key {
+  flex: 1 1 33.333%;
+}
+
+.calculator .calculator-keyboard .calculator-keyboard-left .calculator-key.calculator-key-0 {
+  flex: 1 1 66.666%;
+}
+
+.calculator .calculator-keyboard .calculator-keyboard-right {
+  display: flex;
+  flex-direction: column;
+  flex: 25%;
+}
+
+.calculator .calculator-keyboard .calculator-keyboard-right .calculator-key {
+  flex: 1 1 20%;
+}
+
+.calculator .calculator-keyboard .calculator-keyboard-right .calculator-key.calculator-key-result {
+  flex: 1 1 40%;
+}
+
+.calculator .calculator-key {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.calculator .calculator-key:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: .5;
+  z-index: 0;
+  transition: all .25s ease;
+}
+
+.calculator .calculator-key:hover:before {
+  opacity: 1;
+}
+
+.calculator .calculator-key span {
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.calculator .calculator-key-erase:before, .calculator .calculator-key-erase:hover {
+  content: '';
+  color: #000;
+  background: #ff4f00;
+}
+
+.calculator .calculator-key-result:before, .calculator .calculator-key-result:hover {
+  content: '';
+  color: #000;
+  background: #0089ff;
+}
+/*# sourceMappingURL=calculator.page.css.map */

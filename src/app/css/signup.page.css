@@ -1,0 +1,72 @@
+ion-toolbar {
+  --background: rgb(46, 128, 211);
+  height: 90px;
+}
+
+ion-content {
+  --ion-background-color: #fff;
+}
+
+ion-content .content {
+  margin-top: 20px;
+}
+
+ion-content .content .icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-content .content .icon img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+ion-content form {
+  width: 85%;
+  margin: 0 auto;
+}
+
+ion-content form ion-item {
+  --background: transparent;
+  margin-top: 15px;
+  border: 1px solid #3067c5;
+  border-radius: 5px;
+  height: 60px;
+  position: relative;
+  z-index: 0;
+  overflow: visible;
+}
+
+ion-content form ion-item ion-label {
+  z-index: 100000000;
+  margin-top: -10px;
+  color: #3067c5;
+  position: absolute;
+  background-color: #fff;
+}
+
+ion-content form ion-item ion-input {
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+ion-content form ion-item ion-icon {
+  position: absolute;
+  color: #000;
+  right: 5px;
+  top: 15px;
+}
+
+ion-content form ion-row ion-col ion-button {
+  --background: #3b0bac;
+  --border-radius: 5px;
+  height: 45px;
+  margin-top: 35px;
+  --box-shadow: none;
+}
+/*# sourceMappingURL=signup.page.css.map */

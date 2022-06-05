@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="login"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+    <div class="icon"> 
+      <img src="./assets/images/profile1.png">
+    </div>
+
+  </div>
+  <form>
+    <ion-item lines="none">
+      <ion-label position="floating">First Name</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="floating">Last Name</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="floating">Confirm Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label position="floating">Phone Number</ion-label>
+      <ion-input type="number" required></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" expand="block" (click)="signin()">Register</ion-button>
+
+      </ion-col>
+    </ion-row>
+  </form>
+
+</ion-content>
